@@ -24,21 +24,21 @@ public class AnonymizeWordDocument {
 
   public static void main(String[] args) throws IOException {
 // .docx
-//   new AnonymizeWordDocument().updateMsWordDocxFile("c:\\work\\Abiola_O_Obatuase_resume.docx", "c:\\work\\Abiola_O_Obatuase_resume_upd.docx", "4109985643,443722987656,nurse1@gmail.com");
+//   new AnonymizeWordDocument().updateMsWordDocxFile("c:\\work\\Abiola_O_Obatuase_resume.docx", "c:\\work\\Abiola_O_Obatuase_resume_upd.docx", "email_address,phone_number");
 
-//    new AnonymizeWordDocument().updateMsWordDocxFile("c:\\work\\JASVIR_Sun.docx", "c:\\work\\JASVIR_Sun_upd.docx", "(703) 502-8672,sunnyside@GMAIL.COM");
-//    new AnonymizeWordDocument().updateMsWordDocxFile("c:\\work\\Adenike_Akonnursing_resume.docx", "c:\\work\\Adenike_Akonnursing_resume_upd.docx", "240-305-0100,anurse@gmail.com");
-//    new AnonymizeWordDocument().updateMsWordDocxFile("c:\\work\\SenthilKumar.docx", "c:\\work\\SenthilKumar_upd.docx","3176029380,senthilkumar.lakshma@gmail.com");
+//    new AnonymizeWordDocument().updateMsWordDocxFile("c:\\work\\JASVIR_Sun.docx", "c:\\work\\JASVIR_Sun_upd.docx", "email_address,phone_number");
+//    new AnonymizeWordDocument().updateMsWordDocxFile("c:\\work\\Adenike_Akonnursing_resume.docx", "c:\\work\\Adenike_Akonnursing_resume_upd.docx", "email_address,phone_number");
+//    new AnonymizeWordDocument().updateMsWordDocxFile("c:\\work\\SenthilKumar.docx", "c:\\work\\SenthilKumar_upd.docx","email_address,phone_number");
 //
 //    // .doc
-//    new AnonymizeWordDocument().updateMsWordDocxFile("resumes\\cv_en.docx", "resumes\\cv_en_upd.docx","Myllon.tennyson@info.co.in,0021-1258-32698,0054-45897-4562");
-//    new AnonymizeWordDocument().updateMsWordDocFile("resumes\\Doctor_Resume_MsWord_2MB.doc", "resumes\\Doctor_Resume_MsWord_2MB_upd.doc","my_is@yahoo.com,010-10000001");
-    new AnonymizeWordDocument().updateMsWordDocxFile("resumes\\n_test.docx", "resumes\\n_test_1_upd.docx", "cbooth@yahoo.com,cboh@gmail.com,cbooth@volny.cz,3176029380,Test@gmail.com");
-//    new AnonymizeWordDocument().updateMsWordDocxFile("resumes\\Blair_Brewer_Resume (1).docx", "resumes\\Blair_Brewer_Resume (1)_upd.docx", "(434) 466-6622,brew@gmail.com");
-//    new AnonymizeWordDocument().updateMsWordDocFile("resumes\\cathy_resume.doc", "resumes\\cathy_resume_upd.doc","cbooth@yahoo.com,(301) 213-7771");
-//    new AnonymizeWordDocument().updateMsWordDocFile("resumes\\Demo_Doc.doc", "resumes\\Demo_Doc_upd.doc","harriet.smith.doc@hotmail.co.uk,07825498149");
-//    new AnonymizeWordDocument().updateMsWordDocFile("resumes\\Tim Mccall__09_24_2015.doc", "resumes\\Tim Mccall__09_24_2015_upd.doc","Jnurse7@yahoo.com,443-929-8888");
-//    new AnonymizeWordDocument().updateMsWordDocFile("resumes\\Doctor_Resume_MsWord_2.2MB.doc", "resumes\\Doctor_Resume_MsWord_2.2MB_upd.doc","my_is@yahoo.com,010-10000001");
+//    new AnonymizeWordDocument().updateMsWordDocxFile("resumes\\cv_en.docx", "resumes\\cv_en_upd.docx","email_address,phone_number,phone_number");
+//    new AnonymizeWordDocument().updateMsWordDocFile("resumes\\Doctor_Resume_MsWord_2MB.doc", "resumes\\Doctor_Resume_MsWord_2MB_upd.doc","email_address,phone_number");
+    new AnonymizeWordDocument().updateMsWordDocxFile("resumes\\n_test.docx", "resumes\\n_test_upd.docx", "cobondeno@yahoo.com,cobondeno@gmail.com,cobondeno@volny.cz,3176029380");
+//    new AnonymizeWordDocument().updateMsWordDocxFile("resumes\\Blair_Brewer_Resume (1).docx", "resumes\\Blair_Brewer_Resume (1)_upd.docx", "email_address,phone_number");
+//    new AnonymizeWordDocument().updateMsWordDocFile("resumes\\cathy_resume.doc", "resumes\\cathy_resume_upd.doc","email_address,phone_number");
+//    new AnonymizeWordDocument().updateMsWordDocFile("resumes\\Demo_Doc.doc", "resumes\\Demo_Doc_upd.doc","email_address,phone_number");
+//    new AnonymizeWordDocument().updateMsWordDocFile("resumes\\Tim Mccall__09_24_2015.doc", "resumes\\Tim Mccall__09_24_2015_upd.doc","email_address,phone_number");
+//    new AnonymizeWordDocument().updateMsWordDocFile("resumes\\Doctor_Resume_MsWord_2.2MB.doc", "resumes\\Doctor_Resume_MsWord_2.2MB_upd.doc","email_address,phone_number");
   }
 
   private void updateMsWordDocxFile(String input, String output, String words) throws IOException {
